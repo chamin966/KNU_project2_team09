@@ -36,7 +36,7 @@
 
 <img src=https://github.com/chamin966/KNU_project2_team09/assets/76090919/97fe70b3-dc83-408b-b8e0-3698538530eb width="300" height="250">　　<img src=https://github.com/chamin966/KNU_project2_team09/assets/76090919/b30a4cad-78a0-4fe8-824e-342eb256fd85 width="300" height="250">
 
-재생 컨트롤러 시각 설정 펼침/접힘　　　　　날짜 변경
+재생 컨트롤러 시각 설정 펼침/접힘　　　　　　날짜 변경
 
 <img src=https://github.com/chamin966/KNU_project2_team09/assets/76090919/af9ed80f-a9c0-41e9-b1db-26e9ab416822 width="300" height="250">　　<img src=https://github.com/chamin966/KNU_project2_team09/assets/76090919/8b9a480b-5bba-415d-b4b5-b968c335820c width="300" height="250">
 
