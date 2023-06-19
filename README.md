@@ -6,6 +6,22 @@
 <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=Node.js&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black"/> <img src="https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=redux&logoColor=white"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/styled components-DB7093?style=flat-square&logo=styledcomponents&logoColor=white"/> 
 
 
+## 프로젝트 실행 방법
+1. 프론트 사이드 실행
+- my-react 폴더 열기
+- 터미널에서 npm i 명령어로 모듈 설치
+- npm start로 실행
+
+2. 서버 사이드 실행
+- junServer 폴더 열기
+- 터미널에서 npm i 명령어로 모듈 설치
+- node getData.js로 실행
+
+## 실행 시 주의사항
+- 로컬에 DB파일과 postgre가 설치되어 있어야 함.
+- Axios 에러의 경우, postgre 로컬 비밀 번호 미일치로 인한 인증오류 이므로,<br>junServer 폴더의 getData.js 파일에서 postgre 패스워드를 본인 PC에 설치된 postgre 패스워드로 변경하면 됨.
+
+
 ## 프로젝트 결과 화면
 
 ### 전체 기능
