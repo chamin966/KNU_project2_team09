@@ -10,27 +10,27 @@
 
 ### 전체 기능
 
-<img src=https://github.com/chamin966/KNU_project2_team09/assets/76090919/bd5f8f59-b756-4899-9933-0e8a5f33f3fc width="200" height="150">
+<img src=https://github.com/chamin966/KNU_project2_team09/assets/76090919/bd5f8f59-b756-4899-9933-0e8a5f33f3fc width="300" height="250">
 
-<img src=https://github.com/chamin966/KNU_project2_team09/assets/76090919/e77c461b-0b47-455b-8a46-f08439879bc4 width="200" height="150" align="right">
+<img src=https://github.com/chamin966/KNU_project2_team09/assets/76090919/e77c461b-0b47-455b-8a46-f08439879bc4 width="300" height="250" align="right">
 
 틸팅　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　확대/축소
 
-<img src=https://github.com/chamin966/KNU_project2_team09/assets/76090919/5e4c00bc-e0be-4f7e-bbfa-d4d3c82345f7 width="200" height="150">
+<img src=https://github.com/chamin966/KNU_project2_team09/assets/76090919/5e4c00bc-e0be-4f7e-bbfa-d4d3c82345f7 width="300" height="250">
 
-<img src=https://github.com/chamin966/KNU_project2_team09/assets/76090919/f13db13c-657a-4da8-8a23-be09684740b6 width="200" height="150" align="right">
+<img src=https://github.com/chamin966/KNU_project2_team09/assets/76090919/f13db13c-657a-4da8-8a23-be09684740b6 width="300" height="250" align="right">
 
 다크/라이트 모드 변환　　　　　　　　　　　　　　　　　　　　　　　　　차량이 지나가면 배차 요청 사라짐 
 
-<img src=https://github.com/chamin966/KNU_project2_team09/assets/76090919/97fe70b3-dc83-408b-b8e0-3698538530eb width="200" height="150">
+<img src=https://github.com/chamin966/KNU_project2_team09/assets/76090919/97fe70b3-dc83-408b-b8e0-3698538530eb width="300" height="250">
 
-<img src=https://github.com/chamin966/KNU_project2_team09/assets/76090919/b30a4cad-78a0-4fe8-824e-342eb256fd85 width="200" height="150" align="right">
+<img src=https://github.com/chamin966/KNU_project2_team09/assets/76090919/b30a4cad-78a0-4fe8-824e-342eb256fd85 width="300" height="250" align="right">
 
 재생 컨트롤러 시각 설정 펼침/접힘　　　　　　　　　　　　　　　　　　　　날짜 변경
 
-<img src=https://github.com/chamin966/KNU_project2_team09/assets/76090919/af9ed80f-a9c0-41e9-b1db-26e9ab416822 width="200" height="150">
+<img src=https://github.com/chamin966/KNU_project2_team09/assets/76090919/af9ed80f-a9c0-41e9-b1db-26e9ab416822 width="300" height="250">
 
-<img src=https://github.com/chamin966/KNU_project2_team09/assets/76090919/8b9a480b-5bba-415d-b4b5-b968c335820c width="200" height="150" align="right">
+<img src=https://github.com/chamin966/KNU_project2_team09/assets/76090919/8b9a480b-5bba-415d-b4b5-b968c335820c width="300" height="250" align="right">
 
 서버에서 데이터 받아오는 동안 로딩중 표시　　　　　　　　　　　　　　　　차량 목록 UI
   
