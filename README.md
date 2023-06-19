@@ -40,7 +40,7 @@
 
 <img src=https://github.com/chamin966/KNU_project2_team09/assets/76090919/af9ed80f-a9c0-41e9-b1db-26e9ab416822 width="300" height="250">　　<img src=https://github.com/chamin966/KNU_project2_team09/assets/76090919/8b9a480b-5bba-415d-b4b5-b968c335820c width="300" height="250">
 
-서버에서 데이터 받아오는 동안 로딩중 표시　차량 목록 UI
+데이터를 받아오는 동안 로딩중 표시　　　　차량 목록 UI
   
   
   
