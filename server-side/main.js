@@ -13,6 +13,7 @@ import { addData } from './CarPath/addData.js';
 import { pick_drop_data } from './Request/pick_drop_data.js';
 import { carPath } from './CarPath/carPath.js';
 import { requestAdd } from './Request/requestAdd.js';
+import { scheduleCar } from './Schedule/scheduleCar.js';
 
 app.use(cors());
 app.set('port', 3001);
@@ -25,7 +26,7 @@ const pg = new Client.Pool({
   user: 'postgres',
   host: 'localhost',
   database: 'postgres',
-  password: 'root',
+  password: 'postgres',
   port: 5432,
 });
 
@@ -38,7 +39,7 @@ function leftPad(value) {
   return `0${value}`;
 }
 
-//timeData?time=xxxx-xx-xx yy:yy:yy&speed=(0.5 / 1.0 / 1.5 / 2.0)&interval=n&schedule=0or1
+//timeData?time=xxxx-xx-xx yy:yy:yy&speed=(0.5 / 1.0 / 1.5 / 2.0)&interval=n
 app.get('/timeData', async (req, response) => {
   let client = await pg.connect();
   let queryData = url.parse(req.url, true).query;
@@ -176,6 +177,9 @@ app.get('/timeData', async (req, response) => {
     console.log(err);
     response.send(err.message);
   }
+
+  //예상경로 표시를 할려는 경우 예상경로 데이터를 처리
+  scheduleCar(timeData, startKey, endKey, speed);
 
   //데이터의 젤 앞부분에 남아있는 마커들의 정보를 싹 다 담아서 전송
   timeData[0].push({ category: 'remains', data: remains });
