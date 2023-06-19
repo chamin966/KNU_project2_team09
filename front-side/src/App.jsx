@@ -5,6 +5,7 @@ import { IconLayer, PathLayer, TextLayer } from 'deck.gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import GlobalStyles from 'style/globalStyle';
 import { connect } from 'react-redux';
+import ViechlesInfo from 'Components/ViechleInfo/ViechlesInfo';
 
 const ACCESS_TOKEN = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
 
@@ -161,6 +162,7 @@ function App({ pathsDataObj, carIconsObj, passengerIconArr, isDarkValue }) {
 
     <div>
       <GlobalStyles />
+      <ViechlesInfo />
       <DeckGL
         initialViewState={INITIAL_VEIW_STATE}
         controller={true}
