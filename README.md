@@ -72,5 +72,5 @@
 ## 프로젝트를 통해 배운 점
 - 새로운 라이브러리를 사용함에 있어 공식 문서를 활용하는 방법에 대한 숙련도 향상
 - React Hook인 useState, useRef의 차이와 활용하는 방법에 대한 이해도 향상
-- Node.js 및 Typescript에 대한 전반적인 이해도 및 활용능력 향상
+- Node.js 및 React 활용에 대한 전반적인 이해도 및 활용능력 향상
 - requestAnimationFrame 메서드로 60fps 애니메이션 생성하는 방법 학습
