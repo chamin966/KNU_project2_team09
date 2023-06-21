@@ -5,7 +5,7 @@ import { IconLayer, PathLayer, TextLayer } from 'deck.gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import GlobalStyles from 'style/globalStyle';
 import { connect } from 'react-redux';
-import ViechlesInfo from 'Components/ViechleInfo/ViechlesInfo';
+import ViechlesInfo from 'Components/VehiclesInfo/VehiclesInfo';
 import Controllers from 'Components/Controllers/Controllers';
 
 const ACCESS_TOKEN = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;

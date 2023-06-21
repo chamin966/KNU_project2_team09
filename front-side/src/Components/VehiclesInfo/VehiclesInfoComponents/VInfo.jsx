@@ -43,7 +43,7 @@ const VInfoBtn = styled.button`
 
 function VInfo({
   id,
-  viechleName,
+  vehicleName,
   carColor,
   chooseCarObj,
   addCarAtVinfo,
@@ -70,7 +70,7 @@ function VInfo({
       invisibleCarIconAtVinfo(id);
       invisiblePathAtVinfo(id);
     } else {
-      addCarAtVinfo({ id: id, carName: viechleName });
+      addCarAtVinfo({ id: id, carName: vehicleName });
       visibleCarIconAtVinfo(id);
       visiblePathAtVinfo(id);
     }
@@ -85,7 +85,7 @@ function VInfo({
           onClick={onClickVInfoBox}
           isActivate={chooseCarObj[id] === undefined ? false : true}
         >
-          {viechleName}
+          {vehicleName}
         </VInfoBtn>
       </div>
     </VInfoContainer>

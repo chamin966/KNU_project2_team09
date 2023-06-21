@@ -5,7 +5,10 @@
   "type": "module",
   "main": "test.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \" npm run start \"  \" npm run start --prefix ../front-side \"",
+    "build": "concurrently \"npm run build\" \"npm run build --prefix ../front-side\""
   },
   "keywords": [],
   "author": "",
